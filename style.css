@@ -1,0 +1,30 @@
+.box {
+    background-color: blue;
+    animation-name: boxan;
+    animation-duration: 4s;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @keyframes boxan {
+    0% {
+      margin: 0px;
+      }
+  25%{
+      margin:0 0 0 200px;
+      background-color: red;
+  }
+  50%{
+  margin: 200px 0 0 200px;
+  background-color: rgb(238, 255, 0);
+  }
+  75%{
+      margin: 200px 0 200px;
+      background-color:rgb(37, 219, 113);
+  }
+  100%{
+      margin: 0px;
+  }}
